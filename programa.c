@@ -6,6 +6,6 @@ int main(){
     printf("introduce dos numeros enteros separados por un espacio ");
     scanf("%d%d", &a, &b);
     printf("el mas grande de los dos es: ");
-    a<b ? printf("%d", b): printf("%d", a);
+    a<b ? printf("%d", b) : printf("%d", a);
     return 0;
 }
